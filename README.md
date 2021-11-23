@@ -1,7 +1,7 @@
 # Security Storytelling Ontology
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-An ontology relating to Simon Parkin, Simon Arnell and Jeremy Ward's [NSPW '21](https://www.nspw.org/2021) paper, "Change that Respects Business Expertise: Stories as Prompts fora Conversation about Organisation Security".
+An ontology relating to Simon Parkin, Simon Arnell and Jeremy Ward's [NSPW '21](https://www.nspw.org/2021) paper, "Change that Respects Business Expertise: Stories as Prompts for a Conversation about Organisation Security".
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
