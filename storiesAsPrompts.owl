@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#"
+     xml:base="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl">
+        <owl:versionIRI rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/tree/v1.0.0/storiesAsPrompts.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#applies -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#applies"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#causes -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#causes"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#ended -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#ended"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#exploitsRisk -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#exploitsRisk"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasAsset -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasAsset"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasIncidentType -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasIncidentType"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasProperty"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasResponse -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasResponse"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasRisk -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasRisk"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasTargetingStrategy -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasTargetingStrategy"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasThreatType -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasThreatType"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasTimescale -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasTimescale"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#implements -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#implements"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#instigatedBy -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#instigatedBy"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isNamed -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isNamed"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isReportedBy -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isReportedBy"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isVictim -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isVictim"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#linkedTo -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#linkedTo"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#loses -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#loses"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#operatesIn -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#operatesIn"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#relatesTo -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#relatesTo"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#started -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#started"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#treats -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#treats"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Accept -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Accept">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Adversary -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Adversary">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasTargetingStrategy"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Targeting_Strategy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Asset -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Asset">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#loses"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Lost_Value"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Business_Environment -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Business_Environment"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Compromise -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Compromise">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Control -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Control"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Corrective -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Corrective">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Control"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Date_and_Time -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Date_and_Time"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Detective -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Detective">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Control"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#causes"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Lost_Value"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#exploitsRisk"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasIncidentType"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasResponse"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Response"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasThreatType"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Threat_Type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasTimescale"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Timescale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#instigatedBy"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Adversary"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isReportedBy"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#News_Source"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#linkedTo"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Intellectual_Property -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Intellectual_Property">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Lost_Value -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Lost_Value"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Mitigate -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Mitigate">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#implements"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Control"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Money -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Money">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#News_Source -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#News_Source"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Organisation -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Organisation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasAsset"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Asset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isNamed"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Organisation_Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#isVictim"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#operatesIn"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Business_Environment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Organisation_Name -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Organisation_Name"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Physical_Site_Characteristic -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Physical_Site_Characteristic">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Preventative -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Preventative">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Control"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Prevention -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Prevention">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Product -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Product">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Region -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Region">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Business_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Reject -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Reject">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Reported -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Reported">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Lost_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Response -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Response">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#applies"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#treats"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Sector -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Sector">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Business_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Security_Belief -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Security_Belief">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#relatesTo"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Services -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Services">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Size -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Size">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Suspected -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Suspected">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Lost_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Suspected_Compromise -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Suspected_Compromise">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#System -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#System">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Estate_Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Targeting_Strategy -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Targeting_Strategy"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Threat_Type -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Threat_Type"/>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Timescale -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Timescale">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#ended"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Date_and_Time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#started"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Date_and_Time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Transfer -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Transfer">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Risk_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Update -->
+
+    <owl:Class rdf:about="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Update">
+        <rdfs:subClassOf rdf:resource="https://github.com/simonarnell/security-storytelling-ontology/storiesAsPrompts.owl#Incident_Type"/>
+        <rdfs:comment>to a previously reported incident</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
